@@ -1,232 +1,234 @@
+:lang(en);
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
 
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-        font-family: 'Roboto', sans-serif;
-    }
-    .nopadding {
-        padding: 0px;
-        margin: 0px;
-    }
-    header {
-        background-image: url(images/restaurants/toa.jpg);
-        background-size: 100%;
-        min-height: 285px;
-    }
-    .content {
-        background: white;
-        margin-top: -50px;
-        font-size: 26px;
-        font-weight: 700;
-        z-index: 999;
-        border-top-right-radius: 50px;
-        border-top-left-radius: 50px;
-        background-color: hsl(0deg 0% 96%);
-    }
-    .title {
-        display: flex;
-        justify-content: space-between;
-        padding: 25px;
-        
-    }
-    .special-font{
-        font-family: 'Shrikhand', cursive;
-    }
-    .menu .title {
-        text-transform: uppercase;
-        font-size: 16px;
-        padding: 0px;
-        font-weight: 100;
-        display: block;
-    }
-    .produits {
-        box-shadow: 5px 5px 5px #00000029;
-        background: white;
-        border-radius: 15px;
-        padding: 10px;
-        margin: 15px 0px;
-        display: flex;
-        justify-content: space-between;
-        overflow: hidden;
-        cursor: pointer;
+.nopadding{
+	padding: 0px;
+	margin: 0px;
+}
 
-        animation: fadeInAnimation ease 3s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+header {
+	background-image: url(images/restaurants/toa.jpg);
+	background-size: 100%;
+	min-height: 285px;
+}
 
-    }
-    .menu {
-        padding: 16px;
-    }
-    h2 {
-        font-size: 16px;
-        margin: 0px;
-        padding-bottom: 10px;
-    }
-    .line {
-        display: flex;
-        justify-content: space-between;
-    }
-    .desc {
-        font-size: 12px;
-        font-weight: 400;
-    }
-    .prix{
-        font-size: 12px;
-    }
-    .line-blue {
-        width: 50px;
-        height: 2px;
-        background: #12c4c4;
-        margin-top: 5px;
-    }
-    button {
-        background: linear-gradient(180deg, #ff00e7, #9356dc);
-        padding: 18px;
-        font-size: 16px;
-        border: none;
-        /* width: 71%; */
-        position: relative;
-        bottom: -22px;
-        color: white;
-        border-radius: 48px;
-        font-weight: 700;
-        box-shadow: 5px 5px 5px #00000029;
-        padding-left: 42px;
-        padding-right: 42px;
-    }
-    button:hover {
-        filter: brightness(2);
-        box-shadow: 5px 5px 5px #00000057;
-        text-shadow: 1px 1px 1px black;
-    }
-    .btn {
-        width: 100%;
-        text-align: center;
-        height: 116px;
+.content {
+	background: white;
+	margin-top: -50px;
+	font-size: 26px;
+	font-weight: 700;
+	z-index: 999;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	background-color: hsl(0deg 0% 96%);
+}
 
-    }
-    footer {
-        background-color: hsl(0deg 0% 21%);
-        padding: 15px;
-    }
-    footer ul {
-        list-style: none;
-        text-decoration: none;
-        color: white;
-    }
-    footer ul li {
-        line-height: 35px;
-    }
-    a {
-        color: black;
-        text-decoration: none;
-    }
-    .white-logo{
-        filter: invert(100%);
-    }
-    .topbar {
-        text-align: center;
-        padding: 15px;
-        
-    }
-    .topbar img {
-        max-width: 180px;
-        margin-left: 15px;
-    }
-    .topbar i {
-        font-size: 26px;
-        float: left;
-    }
-    footer a {
-        color: white;
-    }
-    .hoverme{
-        width: 60px;
-        background: #03a9f4;
-        margin-top: -10px;
-        margin-bottom: -10px;
-        margin-right: -10px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        display: none;
-        color: white;
-        position: relative;
-    }
-    .hoverme i {
-        text-align: center;
-        position: relative;
-        padding-left: 15px;
-        padding-top: 18px;
-    }
-    .produits:hover > .hoverme {
-        
-            display: block;
-            -webkit-animation: salma 1s; /* Safari, Chrome and Opera > 12.1 */
-            -moz-animation: salma 1s; /* Firefox < 16 */
-             -ms-animation: salma 1s; /* Internet Explorer */
-              -o-animation: salma 1s; /* Opera < 12.1 */
-                 animation: salma 1s;
-     
-        }
-        .produits:hover > .hoverme i::before {
-        
-            display: block;
-            -webkit-animation: salma1 1s; /* Safari, Chrome and Opera > 12.1 */
-            -moz-animation: salma1 2s; /* Firefox < 16 */
-             -ms-animation: salma1 2s; /* Internet Explorer */
-              -o-animation: salma1 2s; /* Opera < 12.1 */
-                 animation: salma1 2s;
-     
-        }
- 
- 
-    .first-slide{
-        width: 100%;
-        padding-right: 15px;
-    }
+.title {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
 
-      
-    @keyframes fadeInAnimation {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-         }
-    }
-    @keyframes salma {
-        0% {
-            margin-right: -70px;
-        }
-        100% {
-          margin-right: -10px;
-        }
-        
-      }
-      /*@keyframes salma1 {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;       
-         }
-      }*/
-      @keyframes salma1 {
-        0% {
-            transform: rotate(0deg);
-            
-        }
-        100% {
-            transform: rotate(360deg);
-            
-        }
-        
-      }
+.special-font {
+	font-family: 'Shrikhand', cursive;
+}
 
-    
-    
+.menu .title {
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 0px;
+	font-weight: 100;
+	display: block;
+}
 
-  
-            
+.produits {
+	box-shadow: 5px 5px 5px #00000029;
+	background: white;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 15px 0px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	cursor: pointer;
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.menu {
+	padding: 16px;
+}
+
+h2 {
+	font-size: 16px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+.line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.prix {
+	font-size: 12px;
+}
+
+.line-blue {
+	width: 50px;
+	height: 2px;
+	background: #12c4c4;
+	margin-top: 5px;
+}
+
+button {
+	background: linear-gradient(180deg, #ff00e7, #9356dc);
+	padding: 18px;
+	font-size: 16px;
+	border: none;
+	/* width: 71%; */
+	position: relative;
+	bottom: -22px;
+	color: white;
+	border-radius: 48px;
+	font-weight: 700;
+	box-shadow: 5px 5px 5px #00000029;
+	padding-left: 42px;
+	padding-right: 42px;
+}
+
+button:hover {
+	filter: brightness(2);
+	box-shadow: 5px 5px 5px #00000057;
+	text-shadow: 1px 1px 1px black;
+}
+
+.btn {
+	width: 100%;
+	text-align: center;
+	height: 116px;
+}
+
+footer {
+	background-color: hsl(0deg 0% 21%);
+	padding: 15px;
+}
+
+footer ul {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+footer ul li {
+	line-height: 35px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.white-logo {
+	filter: invert(100%);
+}
+
+.topbar {
+	text-align: center;
+	padding: 15px;
+}
+
+.topbar img {
+	max-width: 180px;
+	margin-left: 15px;
+}
+
+.topbar i {
+	font-size: 26px;
+	float: left;
+}
+
+footer a {
+	color: white;
+}
+
+.hoverme {
+	width: 60px;
+	background: #03a9f4;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-right: -10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: none;
+	color: white;
+	position: relative;
+}
+
+.hoverme i {
+	text-align: center;
+	position: relative;
+	padding-left: 15px;
+	padding-top: 18px;
+}
+
+.produits:hover>.hoverme {
+	display: block;
+	-webkit-animation: salma 1s;
+	-moz-animation: salma 1s;
+	-ms-animation: salma 1s;
+	-o-animation: salma 1s;
+	animation: salma 1s;
+}
+
+.produits:hover>.hoverme i::before {
+	display: block;
+	-webkit-animation: salma1 1s;
+	-moz-animation: salma1 2s;
+	-ms-animation: salma1 2s;
+	-o-animation: salma1 2s;
+	animation: salma1 2s;
+}
+
+.first-slide {
+	width: 100%;
+	padding-right: 15px;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes salma {
+	0% {
+		margin-right: -70px;
+	}
+	100% {
+		margin-right: -10px;
+	}
+}
+
+@keyframes salma1 {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
