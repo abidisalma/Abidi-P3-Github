@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Ohmyfood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,7 +76,12 @@
                         <h3>La palette du gout </h3>
                         <p>Ménilmontant</p>
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+
+                    <div class="coeur-hover">
+                        <i class="fa-regular fa-heart cwhite"></i>
+                        <i class="fa fa-heart cdark"></i>  
+                      </div>
+        
                 </div>
             </div>
             </a></div>
@@ -88,7 +94,13 @@
                         <h3>La note enchanté</h3>
                         <p>Charonne</p>    
                     </div>
-                    <i class="fa-regular fa-heart"></i>
+
+                    <div class="coeur-hover">
+                        <i class="fa-regular fa-heart cwhite"></i>
+                        <i class="fa fa-heart cdark"></i>  
+                      </div>
+        
+
                 </div>
             </div>
             </a></div>
@@ -102,7 +114,13 @@
                             <h3>A la française</h3>
                             <p>Cité rouge</p>
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+
+                        <div class="coeur-hover">
+                            <i class="fa-regular fa-heart cwhite"></i>
+                            <i class="fa fa-heart cdark"></i>  
+                          </div>
+            
+
                     </div>
                 </div>
             </a></div>
@@ -114,7 +132,13 @@
                             <h3>Le delice des sens </h3>
                             <p>Folie melicourt</p>
                         </div>
-                        <i class="fa-regular fa-heart"></i>
+
+            <div class="coeur-hover">
+                <i class="fa-regular fa-heart cwhite"></i>
+                <i class="fa fa-heart cdark"></i>  
+              </div>
+
+
                     </div>
                 </div>
             </a></div>
@@ -144,8 +168,9 @@
         </ul>
     </footer>
     <div class="overlay">
-        <div class="loader"></div>
-    </div>
-</body>
+        <div class="overlay__inner">
+            <div class="overlay__content"><span class="spinner"></span></div>
+        </div>
+    </div></body>
 
 </html>
