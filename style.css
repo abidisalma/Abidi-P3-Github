@@ -35,7 +35,6 @@
         box-shadow: inset 0px 3px 2px -2px rgb(50 50 50 / 75%);
     }
     .locals p {
-
         font-weight: bold;
     }
     h1 {
@@ -58,21 +57,21 @@
         height: 314px;
     }
     button {
-    background: linear-gradient(180deg, #ff00e7, #9356dc);
-    padding: 25px;
-    font-size: 16px;
-    border: none;
-    width: 52%;
-    position: relative;
-    bottom: -29px;
-    color: white;
-    border-radius: 48px;
-    font-weight: 700;
-    box-shadow: 5px 5px 5px #00000029;
-    height: 59px;
-    text-align: center;
-    padding-top: 20px;
-    color: #f7f1f1;
+        background: linear-gradient(180deg, #ff00e7, #9356dc);
+        padding: 25px;
+        font-size: 16px;
+        border: none;
+        width: 52%;
+        position: relative;
+        bottom: -29px;
+        color: white;
+        border-radius: 48px;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px #00000029;
+        height: 59px;
+        text-align: center;
+        padding-top: 20px;
+        color: #f7f1f1;
     }
     
     button:hover {
@@ -82,7 +81,6 @@
     }
 
     h2{
-
         padding-left: 5px;
     }
 
@@ -90,7 +88,7 @@
         padding: 17px;
     }
     
-    .Fonctionnement {
+    .fonctionnement {
         display: flex;
         flex-direction: column;
     }
@@ -211,7 +209,6 @@
         color: white;
     }
 
-    
     .overlay {
         left: 0;
         top: 0;
